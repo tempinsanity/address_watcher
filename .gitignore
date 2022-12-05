@@ -310,3 +310,4 @@ output/
 pip_cache/
 etherscan_api_key.py
 latest_txs.txt
+git_tips.txt
