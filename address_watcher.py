@@ -6,18 +6,6 @@ from json.decoder import JSONDecodeError
 """
 AddressWatcher
 
-Setup and Usage:
-1) Install python3.6 or above.
-2) Install pip. This is your package manager. You'll need it to install dependencies.
-3) Once python and pip are installed, go to the terminal, navigate to the directory containing this file
-and type in: pip install -r requirements.txt
-4) Get an Etherscan API key
-5) Replace your API key on the bottom of the page where it says <YOUR_API_KEY> in quotes.
-6) Add addresses you want to follow in the addrs.txt file.
-7) Go to the terminal, navigate to the directory containing this file and type: python3 -m address_watcher.py
-
-
-Description:
 AddressWatcher will fetch data from Etherscan and updates a file called 'latest_txs.txt'.
 latest_txs.txt is in a JSON format (key:value), where the key is the address, and the value is the transaction hash.
 Every time this program runs, it checks for the latest ERC20 transaction. 
